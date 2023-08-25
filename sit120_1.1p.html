@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Example</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="ext.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: rgb(134, 217, 245);
+        }
+        
+        h1 {
+            color: rgb(58, 7, 100);
+            font-size: 20px;
+        }
+      
+        img {
+            width: 350px;
+            height: 150px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        
+        th {
+            text-align: center;
+            background-color: #ddd;
+        }
+        
+        td {
+            padding: 10px;
+        }
+        
+        form {
+            width: 40%;
+            margin: 0 auto;
+        }
+        
+        input {
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        
+        label {
+            font-size: 14px;
+        }
+        
+        select {
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: rgb(0, 55, 0);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>PASS TASK 1</b></h1>
+    <!-- Adding image -->
+    <img src="https://t3.ftcdn.net/jpg/02/09/65/14/360_F_209651427_Moux8Hkey15wtMbtLymbPPrdrLhm58fH.jpg"  alt="Image">
+ 
+    <!-- Adding List -->
+    <h2 style="color:rgb(2, 2, 146);">  Subject List</h2> <!-- Inline CSS -->
+    <ol type="I">
+    <li>SIT102-PROGRAMMING</li>
+    <li>SIT120-RESPONSIVE WEB</li>
+    <li>SIT103-DATABASES</li>
+    </ol>
+
+    <!-- Adding table -->
+    <h2 style="color:rgb(2, 2, 146);"> Grade in Subject</h2> <!-- Inline CSS -->
+    <table border="3">
+        <tr>
+            <th>SUBJECT</th>
+            <th>GRADE</th>
+        </tr>
+        <tr>
+            <td>SIT 102</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>SIT 120</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>SIT 103</td>
+            <td>HD</td>
+        </tr>
+    </table>
+    
+    <!-- Adding form -->
+    <h2 style="color:blue;">Form</h2>  <!-- Inline CSS -->
+    <form >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+         <input type="submit" value="Submit">
+
+         <!-- Adding link -->
+    <h2 style="color:blue;">Reference</h2>  <!-- Inline CSS -->
+         <a href="https://www.w3schools.com">click here</a>
+    </form>
+</body>
+</html>
